@@ -1,0 +1,9 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+    <ul>
+        {% for worker in page.header.workers %}
+            <li>{{ worker.name }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

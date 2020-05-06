@@ -1,0 +1,5 @@
+<ul>
+    {% for p in pages.children.visible %}
+            <li><a href="{{ p.url }}"> {{ p.title }}</a></li>
+    {% endfor %}
+</ul>

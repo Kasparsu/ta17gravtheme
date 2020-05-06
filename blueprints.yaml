@@ -1,0 +1,5 @@
+name: Cool
+version: 0.0.1
+
+dependencies:
+  - { name: grav, version: '>=1.6.0' }

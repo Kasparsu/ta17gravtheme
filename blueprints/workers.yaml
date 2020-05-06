@@ -1,0 +1,17 @@
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+      fields:
+        workers:
+          type: tab
+          title: Workers
+          fields:
+            header.workers:
+              type: list
+              label: Worker List
+              fields:
+                .name:
+                  type: text
+                  label: name
